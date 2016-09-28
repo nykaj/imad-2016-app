@@ -9,10 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/Article one', function(req,res){
-    res.send('Requested')
+    res.send('Requested');
 });
 app.get('/Article two', function (req, res) {
-  res.send('Requested')
+  res.send('Requested');
 });
 
 app.get('/ui/madi.png', function (req, res) {
